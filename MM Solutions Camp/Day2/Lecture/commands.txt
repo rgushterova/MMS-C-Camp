@@ -1,0 +1,9 @@
+			Exercise 3:
+			
+	1. commands max number:
+	cat numbers.txt | sort -r | head -n 1
+	cat numbers.txt | sort -n | tail -n 1
+	
+	2. commands min number:
+	cat numbers.txt | sort -n | head -n 1
+	cat numbers.txt | sort -r | tail -n 1
