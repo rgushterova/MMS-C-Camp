@@ -3,11 +3,11 @@
 
 int main(){
     int mass,height,bmi;
-    printf("Vuvedete masa [kg] : ");
+    printf("Въведете маса [kg] : ");
     scanf("%d",&mass);
-    printf("Vuvedete rust [m] : ");
+    printf("Въведете ръст [m] : ");
     scanf("%d",&height);
     bmi=mass/(pow(height,2));
-    printf("Index na telesnata masa: %d\n",bmi);
+    printf("Индекс на телесната маса: %d\n",bmi);
     return 0;
 }
